@@ -1,38 +1,28 @@
-# 👋 Hi, I'm Pouyan Navard
+# Hi, I'm Pouyan Navard
 
-I'm a Computer Vision Engineer focused on building intelligent systems that see, learn, and adapt — both in pixels and in physical space. My journey started with classical 3D reconstruction and has since evolved into designing deep learning systems for complex perception tasks in medical imaging and robotics.
+**Computer Vision Engineer at [Path Robotics](https://www.path-robotics.com/) | PhD, The Ohio State University**
 
-
-## 🧭 My Journey So Far
-
-I began my career fascinated by how machines perceive the 3D world — starting with point clouds, stereo vision, and Structure-from-Motion techniques. This interest eventually took me to The Ohio State University for a PhD, where I explored **self-supervised learning on 3D volumetric medical images**. Working with noisy and low-resolution data pushed me to think deeply about representation learning, robustness, and the limits of generalization.
-
-As I dove deeper into research, I became increasingly drawn to **generative models** — how they can synthesize, imagine, and even control the visual world. This passion led me to **Path Robotics Inc.**, where I now build **photorealistic 3D object generators**, **diffusion models with fine-grained control**, and **world models that help robots learn from their environments**.
-
-
-## 🧠 What I Work On
-
-- **Generative AI for Robotics**: Creating realistic, controllable environments and objects for training autonomous systems.
-- **Self-supervised 3D Vision**: Learning robust features from sparse, noisy, or unlabeled data.
-- **Representation Learning**: Compressing complex visual input into meaningful, task-aware latent spaces.
-- **MLOps for Research**: Scaling experimentation with clean, automated pipelines for training and evaluation.
-
-
-
-## 🌱 What Drives Me
-
-I'm passionate about bridging the gap between academic research and real-world deployment — especially where models move beyond screen-based outputs and into the physical world. Whether it’s helping a robot weld with more precision or enabling ultrasound systems to make sense of blurry 3D scans, I’m driven by a single question:
-
-> *"How can we build models that learn from the world, not just datasets?"*
-
-
-
-## 🔗 Where to Find Me
-- 🎓 [Google Scholar](https://scholar.google.com/citations?user=Zlac41oAAAAJ&hl=en)
-- 🌐 [Portfolio](https://bnavard.github.io/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/pouyan-boreshnavard/)
-- 📧 [boreshnavard.1@osu.edu](mailto:boreshnavard.1@osu.edu)
+I build deep learning systems that bridge generative modeling and visual perception — from research prototypes to production robotics. During my PhD at the [Photogrammetric Computer Vision Lab](https://pcvlab.engineering.osu.edu/), I worked on self-supervised 3D representation learning, diffusion-based generation, and vision-language reasoning under [Alper Yilmaz](https://ceg.osu.edu/people/yilmaz.15). At Path Robotics, I apply that research to real-world problems: multimodal perception for generalized welding, 3D asset generation for simulation, and the MLOps infrastructure behind it all.
 
 ---
 
-TL;DR: PhD hacker turning pixels into intelligence.
+## Selected Projects
+
+| Project | Description | Links |
+|---------|-------------|-------|
+| **LLaVA-LE** | Vision-language model for lunar surface characterization. Fine-tuned on LUCID (96k images, 81k QA pairs from NASA missions) with a two-stage curriculum. | [Paper](https://osupcvlab.github.io/LLaVA-LE/) · [Code](https://github.com/OSUPCVLab/LLaVA-LE) |
+| **KnobGen** | Dual-pathway diffusion framework for sketch-to-image generation with adjustable sophistication control. | [Paper](https://arxiv.org/abs/2410.01595) · [Code](https://github.com/aminK8/KnobGen) |
+| **SegFormer3D** | Lightweight hierarchical Transformer for 3D medical image segmentation — 33x fewer parameters, 13x lower compute than prior work. | [Paper](https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/html/Perera_SegFormer3D_An_Efficient_Transformer_for_3D_Medical_Image_Segmentation_CVPRW_2024_paper.html) · [Code](https://github.com/OSUPCVLab/SegFormer3D) |
+| **ERDES** | Benchmark video dataset for ocular ultrasound. | [Paper](https://arxiv.org/abs/2508.04735) · [HuggingFace](https://huggingface.co/datasets/pnavard/erdes) |
+
+## Reviewer
+
+**Journals:** IEEE TPAMI (2026)
+**Conferences:** CVPR, ICCV, ECCV, ICLR, AVSS, ACCV, SIBGRAPI (2023–2025)
+
+---
+
+[![Website](https://img.shields.io/badge/Website-bnavard.github.io-blue)](https://bnavard.github.io/)
+[![Scholar](https://img.shields.io/badge/Google_Scholar-Profile-green)](https://scholar.google.com/citations?user=Zlac41oAAAAJ&hl=en)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2)](https://www.linkedin.com/in/pouyan-boreshnavard/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-pnavard-yellow)](https://huggingface.co/pnavard)
