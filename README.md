@@ -1,4 +1,4 @@
-# Hi, I'm Pouyan Navard
+# Hi, I'm Nate,
 
 **Generative AI & Agentic AI Engineer | PhD in Electrical and Computer Engineering**
 
